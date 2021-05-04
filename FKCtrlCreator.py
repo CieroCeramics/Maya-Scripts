@@ -1,5 +1,5 @@
 import maya.cmds as mc
-
+import sys
 def makeFKMS(ControlSize, color):
     #sets up fk controls to a joint
     
@@ -9,6 +9,7 @@ def makeFKMS(ControlSize, color):
     if ( size ==0):
         mc.error ("please select one or more objects")
     #controlSize = mc.floatSliderGrp("controlSize")
+
     ControlSize =  mc.floatSliderGrp ("controlSize", q = True, v = True)
    # color = mc.colorIndexSliderGrp("controlColor")
     color = mc.colorIndexSliderGrp ("controlColor", q=True, v=True )

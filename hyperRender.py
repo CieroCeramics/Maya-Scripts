@@ -1,3 +1,5 @@
+#for rendering
+
 import maya.cmds as mc
 
 from mtoa.cmds.arnoldRender import arnoldRender

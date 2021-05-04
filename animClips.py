@@ -1,3 +1,4 @@
+#animClips
 import maya.cmds as mc
 import sys
 
